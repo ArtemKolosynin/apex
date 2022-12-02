@@ -1,0 +1,1 @@
+[Mon Oct 10 03:34:55.787805 2022] [php:error] [pid 104142] [client 192.168.2.143:64223] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /srv/users/vnzbtinb/mghmebk-m1/storage/framework/views/16e76f9ff99d33127bcbe721185e55c14433943a.php on line 27

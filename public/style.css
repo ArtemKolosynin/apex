@@ -1,0 +1,95 @@
+* {box-sizing:border-box;}
+/* connon style */
+body {
+  padding: 0; /* Убираем поля в боди */
+  margin: 0;
+  font-family: arial;
+}
+
+  .container {
+    background:linear-gradient(to left,rgb(233, 232, 187),white, rgb(200, 209, 236));
+    margin: auto;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+  }
+  .contant {
+    clear: both;
+  }
+  .col {padding: 15px;}
+  /* header */
+  .logo, .menu, .phone, .write
+  {
+    display: inline-block;
+    float: left;
+  }
+  .logo {width: 10%; margin-left: 200px;}
+  .contant {border-top: solid thin #ccc;}
+  .menu {width: 45%; text-align: center; }
+  .phone {width: 20%;  }
+  .menu ul {
+    padding: 0;
+    margin: 15px 0 0 0; /* увеличиваем только верхнее поле */
+  }
+  .menu ul li {display: inline;}
+  .menu ul li a {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none; /* убираем подчёркивания */
+    text-transform: uppercase;
+    color: #000;
+    transition: 0.5s;
+  }
+ 
+  .phone {
+    font-size: 22px;
+    padding-top: 42px;
+  }
+  .write
+  {
+    
+    background:red;
+    padding-top: 43px;
+    border-radius: 15px;
+
+  }
+  /* contant */
+  .main-pic {
+
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-right: 150px;
+  
+  }
+  .main-text
+  {
+
+width: 30%;
+margin-left: 300px;
+margin-top: 100px;
+
+  }
+  .text-1
+  {
+
+margin-top: 20px;
+margin-left: 315px;
+width: 30%;
+  }
+  .pictur
+  {
+    display: inline-flex;
+  }
+  /* footer */
+  .footer 
+  {
+
+    background: rgb(100, 97, 97);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0; /* прижать к низу */
+
+  }
