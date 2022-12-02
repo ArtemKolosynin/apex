@@ -7,5 +7,4 @@
 //Route::get('test/form', [App\Http\Controllers\tom::class,'form']);
 Route::get('test/form', [App\Http\Controllers\tom::class,'form']);
 Route::post('/test/result/', [App\Http\Controllers\tom::class,'result']);
-?>
 
